@@ -1,6 +1,8 @@
-const selectSong = (song) => {
+export const selectSong = (song) => {
     return {
         tye: 'SONG_SELECTED', 
         payload: song 
     }; 
 }; 
+
+ 
